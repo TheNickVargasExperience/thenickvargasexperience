@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: black;
+}
+html{
+  font-size: 16px;
+}
+body {
+  font-family: 'work sans';
+  background-color: black;
+}
+
+.picture{
+  background-attachment: fixed;
+  width: 100%;
+  height: 120vh;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first{
+  background: url(./images/nickception.png) no-repeat top;
+  background-attachment: fixed;
+  background-size: contain;
+}
+.first h1{
+  background-color: rgba(255, 0, 0, 0);
+}
+.text-area {
+  background-color: black;
+  height: 85vh;
+  width: 100%;
+  padding-top: 5rem;
+  padding-left: 5rem
+}
+
+.second {
+  background: url(./images/riverside.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#notablefacts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vw
+}
+.carousel-item img{
+  width: 40%;
+  height: auto;
+}
