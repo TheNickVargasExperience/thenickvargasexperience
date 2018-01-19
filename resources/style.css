@@ -1,25 +1,19 @@
 .banner {
-  background-image: url("images/nickception.png");
+  background-image: url("images/nickceptionsmall2.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
+  background-position: top;
 }
-
-
 .slidePic img {
-  height: 400px;
-  width: auto;
-  margin: auto
+  height: auto;
+  width: 90vw;
+}
+.slidePic{
+  margin: auto;
+  padding: 10px;
 }
 
-.slidePic {
-  margin: auto;
-  padding: 40px;
-  width: 100%;
-}
 .slidePic h1{
   color: black;
   text-align: center;
@@ -33,14 +27,20 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
   .slidePic img {
-    height: auto;
-    width: 90vw;
+    height: 400px;
+    width: auto;
+    margin: auto
   }
-  .slidePic{
+  .banner {
+    background-image: url("images/nickception.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+  .slidePic {
     margin: auto;
-    padding: 10px;
+    padding: 40px;
+    width: 100%;
   }
-
 }
