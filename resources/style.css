@@ -14,9 +14,7 @@
   width: auto;
   margin: auto
 }
-.slick-prev:before, .slick-next:before{
-    color: black;
-}
+
 .slidePic {
   margin: auto;
   padding: 40px;
