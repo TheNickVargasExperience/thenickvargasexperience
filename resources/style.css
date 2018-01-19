@@ -10,13 +10,16 @@
 
 
 .slidePic img {
-  height: 400px !important;
+  height: 400px;
   width: auto;
   margin: auto
 }
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
 .slidePic {
   margin: auto;
-  padding: 20px;
+  padding: 40px;
   width: 100%;
 }
 .slidePic h1{
@@ -30,4 +33,16 @@
 }
 .slidePic img {
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px){
+  .slidePic img {
+    height: auto;
+    width: 90vw;
+  }
+  .slidePic{
+    margin: auto;
+    padding: 10px;
+  }
+
 }
