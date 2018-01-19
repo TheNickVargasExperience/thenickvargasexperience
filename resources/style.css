@@ -1,13 +1,19 @@
+
 .banner {
   background-image: url("images/nickceptionsmall2.jpg");
   width: 100%;
-  height: 100vh;
+  height: 75vw;
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  margin-bottom: 10rem;
 }
 .slidePic img {
   height: auto;
   width: 90vw;
+  margin: auto;
+}
+.slideshow {
+  max-height: 100vh;
 }
 .slidePic{
   margin: auto;
