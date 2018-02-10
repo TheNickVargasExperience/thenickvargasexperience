@@ -75,7 +75,7 @@ a, button {
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 1rem;
-  background-image: url("https://github.com/TheNickVargasExperience/thenickvargasexperience/blob/master/resources/images/nickface.png");
+  background-image: url("./images/nickface.png"), url("https://github.com/TheNickVargasExperience/thenickvargasexperience/blob/master/resources/images/nickface.png");
   background-repeat: no-repeat;
 }
 .mainContent{
