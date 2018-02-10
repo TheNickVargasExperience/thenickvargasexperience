@@ -1,4 +1,13 @@
+body {
+  cursor: url("./images/nickpointermain.png"), default;
+}
 
+a, button {
+  cursor: url("./images/nickpointer.png"), crosshair !important;
+}
+::selection {
+  background: rgba(247, 0, 0, 0.7);
+}
 .banner {
   background-image: url("images/nickceptionsmall2.jpg");
   width: 100%;
@@ -7,13 +16,70 @@
   background-position: center;
   margin-bottom: 10rem;
 }
-.slidePic img {
-  height: auto;
-  width: 90vw;
-  margin: auto;
+.intro {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 5rem auto 10rem auto;
+  width: 75vw;
 }
-.slideshow {
-  max-height: 100vh;
+.intro h1 {
+  margin-bottom: 3rem;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+
+}
+.nickfacts{
+  border-radius: 5px 10px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+}
+.nickpic img {
+  width: 100%;
+  height: auto;
+}
+.nickfacts h2 {
+  margin-top: 2rem;
+}
+.section h2 {
+  text-align: center;
+}
+.section ul{
+  margin-top: 2rem;
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+.section li {
+  line-height: 2;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 1rem;
+  background-image: url(images/nickface.png);
+  background-repeat: no-repeat;
+}
+.mainContent{
+  display: flex;
+  flex-direction: column;
+}
+.slidePic img {
+  max-height: 75vh;
+  max-width: 85vw;
+  margin: auto;
+
+}
+.slideShow {
+  max-height: 85vh;
+  margin-top: 10rem;
+}
+.slideShow .slick-prev, .slideShow .slick-next{
+  z-index: 10;
+}
+.slick-prev:before, .slick-next:before {
+  color: rgb(181, 181, 181);
 }
 .slidePic{
   margin: auto;
@@ -41,12 +107,27 @@
   }
   .banner {
     background-image: url("images/nickception.jpg");
+    height: 100vh;
     background-position: center;
     background-attachment: fixed;
+}
+.mainContent{
+  flex-direction: row;
+  justify-content: space-around;
 }
   .slidePic {
     margin: auto;
     padding: 40px;
     width: 100%;
+  }
+  .slideShow p {
+    max-width: 500px;
+    margin: auto;
+  }
+  .slideShow .slick-prev {
+    margin-left: 5rem;
+  }
+  .slideShow .slick-next {
+    margin-right: 5rem;
   }
 }

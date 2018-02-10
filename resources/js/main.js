@@ -1,14 +1,13 @@
 $(document).ready(function(){
   $('.slideShow').slick({
-
   autoplaySpeed: 3000,
-  dots: true,
+  dots: false,
   arrows: true,
   infinite: true,
   speed: 800,
   slidesToShow: 1,
   adaptiveWidth: true,
-  arrows: true
+  autoplay: true
 });
 $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
