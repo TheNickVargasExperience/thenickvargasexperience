@@ -1,9 +1,9 @@
 body {
-  cursor: url("./images/nickpointermain.png"), default;
+  cursor: url("https://github.com/TheNickVargasExperience/thenickvargasexperience/blob/master/resources/images/nickpointermain.png"), url("./images/nickpointermain.png"), default;
 }
 
 a, button {
-  cursor: url("./images/nickpointer.png"), crosshair !important;
+  cursor: url("https://github.com/TheNickVargasExperience/thenickvargasexperience/blob/master/resources/images/nickpointer.png"), url("./images/nickpointer.png"), crosshair !important;
 }
 ::-moz-selection {
   background: rgba(247, 0, 0, 0.7);
@@ -70,7 +70,7 @@ a, button {
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 1rem;
-  background-image: url(images/nickface.png);
+  background-image: url("https://github.com/TheNickVargasExperience/thenickvargasexperience/blob/master/resources/images/nickface.png");
   background-repeat: no-repeat;
 }
 .mainContent{
