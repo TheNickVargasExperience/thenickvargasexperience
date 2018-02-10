@@ -70,7 +70,7 @@ a, button {
   list-style-position: inside;
   padding-left: 1rem;
 }
-.section li {
+.section ul li {
   line-height: 2;
   padding-left: 30px;
   padding-right: 30px;
