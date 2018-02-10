@@ -5,6 +5,9 @@ body {
 a, button {
   cursor: url("./images/nickpointer.png"), crosshair !important;
 }
+::-moz-selection {
+  background: rgba(247, 0, 0, 0.7);
+}
 ::selection {
   background: rgba(247, 0, 0, 0.7);
 }
@@ -17,8 +20,13 @@ a, button {
   margin-bottom: 10rem;
 }
 .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   margin: 5rem auto 10rem auto;
   width: 75vw;
 }
@@ -26,8 +34,13 @@ a, button {
   margin-bottom: 3rem;
 }
 .section{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 7rem;
 
 }
@@ -35,7 +48,6 @@ a, button {
   border-radius: 5px 10px;
   background-color: whitesmoke;
   -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
 }
 .nickpic img {
@@ -62,8 +74,13 @@ a, button {
   background-repeat: no-repeat;
 }
 .mainContent{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .slidePic img {
   max-height: 75vh;
@@ -112,8 +129,12 @@ a, button {
     background-attachment: fixed;
 }
 .mainContent{
-  flex-direction: row;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
   .slidePic {
     margin: auto;
