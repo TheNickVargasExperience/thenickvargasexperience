@@ -17,7 +17,7 @@ a, button {
   height: 75vw;
   background-size: cover;
   background-position: center;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 .intro {
   display: -webkit-box;
@@ -32,6 +32,11 @@ a, button {
 }
 .intro h1 {
   margin-bottom: 3rem;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+.intro p {
+  text-align: justify;
 }
 .section{
   display: -webkit-box;
@@ -127,6 +132,7 @@ a, button {
     height: 100vh;
     background-position: center;
     background-attachment: fixed;
+    margin-bottom: 10rem;
 }
 .mainContent{
   -webkit-box-orient: horizontal;
